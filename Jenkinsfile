@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        jdk 'jdk-17'           // Make sure this matches your Jenkins JDK installation name
-        gradle 'gradle-8'      // Replace with your Jenkins Gradle installation name
-    }
-
     stages {
         stage('Checkout') {
             steps {
