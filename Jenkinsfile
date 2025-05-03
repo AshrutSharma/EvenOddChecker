@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        jdk 'jdk21'           // Make sure this matches your configured JDK name in Jenkins
-        gradle 'gradle8'      // Make sure this matches your configured Gradle name in Jenkins
+        jdk 'jdk21'       // Confirm this matches your configured JDK name
+        gradle 'gradle'   // Use the actual configured Gradle name (probably just "gradle")
     }
 
     stages {
